@@ -1,0 +1,246 @@
+div.section__inner {
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.main-menu {
+  display: flex;
+}
+.main-menu a {
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  padding: 0 0.6em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+
+#lead-test {
+  color: red;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+.col-2 {
+  width: 50%;
+  color: rgb(0, 217, 255);
+}
+.grid {
+  font-family: "IM Fell English SC", serif;
+  text-align: center;
+}
+
+.services {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+  background: #cc00a0;
+}
+
+.services2 {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+  background: #00becc;
+}
+.services3 {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+  background: #80789e;
+}
+#blocks {
+  padding: 2em 2em 0;
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.style-select {
+  margin-bottom: 50px;
+}
+
+.part00 {
+  display: flex;
+  flex-direction: row;
+  margin: 2.5rem auto 3.125rem;
+  width: 80%;
+}
+
+.part00 h1 {
+  color: rgb(0, 186, 197);
+  font-style: italic;
+  font-weight: 50;
+}
+.part22 {
+  margin-top: 22.5px;
+  margin-left: 30px;
+  letter-spacing: 60px;
+  fill: hsla(0, 0%, 67%, 0.7);
+  opacity: 100%;
+}
+
+.partbig {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(216, 247, 246);
+}
+
+.part3 {
+  max-width: 1200px;
+  margin: 2px auto;
+  background-color: rgb(216, 247, 246);
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  overflow: hidden;
+}
+.part3 h1 {
+  color: rgb(0, 179, 155);
+  padding: 80px 0px;
+  margin-left: 30px;
+}
+.part3 p {
+  margin-left: 25px;
+  color: rgb(131, 101, 116);
+}
+
+.part3 h3 {
+  color: rgb(0, 217, 255);
+}
+
+.part3 h5 {
+  color: rgb(131, 101, 116);
+}
+.part1 h1 {
+  color: rgb(0, 217, 255);
+}
+.part2 {
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  margin: 90px;
+  padding: 60px;
+}
+.part2 h5 {
+  font-family: "IM Fell English SC", serif;
+}
+.part33 {
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  margin: 90px;
+  padding: 60px;
+}
+.part33 h5 {
+  font-family: "IM Fell English SC", serif;
+}
+.part4 {
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  margin: 70px;
+  padding: 50px;
+}
+.part4 h5 {
+  font-family: "IM Fell English SC", serif;
+}
+.part5 {
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  margin: 70px;
+  padding: 50px;
+}
+.part5 h5 {
+  font-family: "IM Fell English SC", serif;
+}
+
+.img {
+  position: absolute;
+  /* transform: translate(-650px, 1100px); */
+  left: 0%;
+  bottom: -150px;
+}
+.prim2 {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+.prim2 h1 {
+  color: rgb(42, 179, 0);
+  font-family: Work Sans, Arial, sans-serif;
+  text-decoration: overline;
+}
+.prim2 p {
+  color: rgb(131, 101, 116);
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+.btn {
+  margin-left: 40px;
+  background: #3dc7df;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  letter-spacing: 0.2 em;
+
+  text-decoration: underline;
+}
+.officeb {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  width: 87%;
+  margin: 2.5rem auto 3.125rem;
+}
+
+.office {
+  text-align: center;
+}
+.zed0 {
+  text-align: center;
+}
+.zed a {
+  background-color: rgb(95, 160, 154);
+  margin-right: 40px;
+}
+.zed h1 {
+  text-decoration: underline;
+  color: rgb(250, 215, 215);
+}
+.raar p {
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+}
